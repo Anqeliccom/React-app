@@ -1,0 +1,31 @@
+a:link{
+    text-decoration: none!important;
+}
+
+/* Стиль для навигационной панели */
+.my-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #343a40; /* Цвет фона */
+    padding: 10px;
+}
+
+  /* Стиль для элементов списка */
+.mine {
+    margin: 0;
+    padding: 0;
+}
+
+.mine a {
+    text-decoration: none;
+    color: #ffffff; /* Цвет текста */
+    padding: 10px 20px;
+    border: 1px solid #ffffff; /* Граница вокруг ссылок */
+    border-radius: 5px;
+}
+
+.mine a:hover {
+    background-color: #007bff; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+}

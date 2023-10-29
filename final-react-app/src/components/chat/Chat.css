@@ -1,0 +1,59 @@
+/* Общий стиль для всего чата */
+.mainChat {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+  /* Стиль для блока с сообщениями */
+.messages {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+  /* Стиль для каждого сообщения */
+.message {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+  /* Стиль для формы ввода сообщения */
+.divinput {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

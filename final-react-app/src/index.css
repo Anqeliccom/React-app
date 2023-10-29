@@ -1,0 +1,12 @@
+/* Стиль для body (текстового содержания) */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; /* Замените на нужный вам шрифт */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Стиль для кода (например, в тегах <code>) */
+code {
+  font-family: 'Courier New', Courier, monospace; /* Замените на нужный вам моноширинный шрифт */
+}
